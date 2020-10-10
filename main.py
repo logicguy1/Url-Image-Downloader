@@ -4,7 +4,7 @@ import requests # to get image from the web
 import shutil # to save it locally
 
 ## Set up the image URL and filename
-image_url = "https://image.shutterstock.com/image-vector/mysterious-computer-hacker-icon-black-260nw-1050727517.jpg"
+image_url = input("Url: ")
 filename = image_url.split("/")[-1]
 
 # Open the url image, set stream to True, this will return the stream content.
